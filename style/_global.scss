@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  min-height: 100vh;
+  background-image: linear-gradient(
+    120deg,
+    rgb(61, 123, 189),
+    rgb(44, 219, 231)
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+
+  font-family: "Ubuntu", sans-serif;
+}
+
+h1 {
+  font-size: 6rem;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+p,
+label,
+input,
+a,
+li {
+  font-size: 2rem;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1400px;
+}

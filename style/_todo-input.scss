@@ -1,0 +1,23 @@
+form {
+  min-height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo-input,
+.todo-button {
+  border: none;
+  background-color: white;
+  padding: 1rem;
+  font-size: 2rem;
+}
+
+.select {
+  margin-left: 1rem;
+  select {
+    border: none;
+    cursor: pointer;
+    padding: 1.4rem;
+  }
+}
